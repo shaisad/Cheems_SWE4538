@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <h1>Login</h1>
+
+
+    <form action="/login" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" value="Login">
+        <div>or</div>
+        <div>
+            <a href="/auth/google">Continue with Google</a>
+        </div>
+        <div>or</div>
+        <div>
+            <a href="/register">Register</a>
+        </div>
+        <div>
+            <a href="/forgotpassword">Forgot Password?</a>
+        </div>
+    </form>
+</body>
+
+</html>
