@@ -1,0 +1,1752 @@
+{
+	"info": {
+		"_postman_id": "e7f3ec63-aa96-45bb-bbc4-e7f126b065e2",
+		"name": "Cheems",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32095523"
+	},
+	"item": [
+		{
+			"name": "deleteprofile",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/deleteprofile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteprofile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletememe",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/deleteMeme/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteMeme",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getuserprofile/659467af39986159cd0659e8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getuserprofile",
+						"659467af39986159cd0659e8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-siut",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Shaira\",\r\n    \"email\": \"shairasadia@iut-dhaka.edu\",\r\n    \"password\": \"Shaira1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login-siut",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"shairasadia@iut-dhaka.edu\",\r\n    \"password\": \"Shaira1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "userprofile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getuserprofile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getuserprofile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allprofiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getprofiles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getprofiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateprofile",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Shairi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateprofile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateprofile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postmeme",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"cat\",\r\n    \"description\": \"funny\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/postMeme",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"postMeme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getmeme",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getMeme",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getMeme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getlatestmemes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getMeme",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getMeme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatememe",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\":\"very funny\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateMeme/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateMeme",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postmemeimages",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": [
+								"/C:/Users/Shaira Sadia Karim/Downloads/memes/cat.jpeg",
+								"/C:/Users/Shaira Sadia Karim/Downloads/memes/cat2.jpg"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/uploadMultipleImages/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadMultipleImages",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postmemevideos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "videos",
+							"type": "file",
+							"src": [
+								"/C:/Users/Shaira Sadia Karim/Downloads/fall_-_23881 (720p).mp4",
+								"/C:/Users/Shaira Sadia Karim/Downloads/184972 (540p).mp4"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/uploadMultipleMemeVideo/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadMultipleMemeVideo",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getmemeimages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getMemeImages/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getMemeImages",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getmemevideos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getMemeVideos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getMemeVideos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatememeimages",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/cat3.jpeg"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/cat4.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateMultipleMemeImages/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateMultipleMemeImages",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatememevideos",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "videos",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/fall_-_23881 (720p).mp4"
+						},
+						{
+							"key": "videos",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/184972 (540p).mp4"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateMultipleMemeVideos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateMultipleMemeVideos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletememeimages",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/cat3.jpeg"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/cat4.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteMemeImage//",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteMemeImage",
+						"",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletememevideo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteMemeVideo//",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteMemeVideo",
+						"",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "likememe",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/likeMeme/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"likeMeme",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getlikes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getLikes/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getLikes",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "unlikememe",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/unlikeMeme/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"unlikeMeme",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postcomment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\":\"love this\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/postComment/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"postComment",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getcomments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getComments/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getComments",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatecomment",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"newContent\":\"smiling\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateComment/6594746c2d15e0fa54490e09/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateComment",
+						"6594746c2d15e0fa54490e09",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletecomment",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\":\"love this\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteComment/6594746c2d15e0fa54490e09/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteComment",
+						"6594746c2d15e0fa54490e09",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forgotpassword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/forgotpassword",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"forgotpassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendpasswordlink",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"shairasadia@iut-dhaka.edu\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/sendpasswordlink",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"sendpasswordlink"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resetpassword",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"otp\":\"\",\r\n    \"password\":\"Shaira2\",\r\n    \"reEnterPassword\":\"Shaira2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/resetpassword",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"resetpassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "relogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"shairasadia@iut-dhaka.edu\",\r\n    \"password\": \"Shaira2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-k",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Karim\",\r\n    \"email\": \"sadia.karim911@gmail.com\",\r\n    \"password\": \"Karim1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login-k",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Karim\",\r\n    \"email\": \"sadia.karim911@gmail.com\",\r\n    \"password\": \"Karim1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "likememe-ktosm",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/likeMeme/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"likeMeme",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "unlikememe-ktosm",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/likeMeme/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"likeMeme",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postcomment - ktosm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\":\"funny!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/postComment/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"postComment",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatecomment-ktosm",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"newContent\":\"laughing\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateComment/6594746c2d15e0fa54490e09/6594815b298c5aa9b0a5aaf1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateComment",
+						"6594746c2d15e0fa54490e09",
+						"6594815b298c5aa9b0a5aaf1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletecomment-ktosm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\":\"love this\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteComment/6594746c2d15e0fa54490e09/65947df52d15e0fa54490e26",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteComment",
+						"6594746c2d15e0fa54490e09",
+						"65947df52d15e0fa54490e26"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendpasswordlink-k",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"sadia.karim911@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/sendpasswordlink",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"sendpasswordlink"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resetpassword-k",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"otp\":\"4d0f\",\r\n    \"password\":\"Karim2\",\r\n    \"reEnterPassword\":\"Karim2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/resetpassword",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"resetpassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "relogin-k",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"sadia.karim911@gmail.com\",\r\n    \"password\": \"Karim2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-sm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Samia\",\r\n    \"email\": \"samia@gmail.com\",\r\n    \"password\": \"Samia1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login-sm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"samia@gmail.com\",\r\n    \"password\":\"Samia1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "userprofile-sm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getuserprofile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getuserprofile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateprofile-sm",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Sam\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateprofile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateprofile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteprofile-sm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/deleteprofile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteprofile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postmeme-sm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"cat\",\r\n    \"description\": \"funny\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/postMeme",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"postMeme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postmeme-sm 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"dog\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/postMeme",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"postMeme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postmeme-sm 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"dog\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/postMeme",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"postMeme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getmeme-sm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getMeme",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getMeme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatememe-sm",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"nun\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateMeme/65946ea22d15e0fa54490df6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateMeme",
+						"65946ea22d15e0fa54490df6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletememe-sm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/deleteMeme/659472c62d15e0fa54490e01",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteMeme",
+						"659472c62d15e0fa54490e01"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postsinglememeimage-sm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/d.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/uploadMemeImage/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadMemeImage",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postmultiplememeimages-sm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": [
+								"/C:/Users/Shaira Sadia Karim/Downloads/memes/dog.jpg",
+								"/C:/Users/Shaira Sadia Karim/Downloads/memes/doge.jpeg"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/uploadMultipleImages/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadMultipleImages",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getmemeimages-sm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getMemeImages/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getMemeImages",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatememeimages-sm",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/stoamchhurts.jpg"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/overthink.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateMultipleMemeImages/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateMultipleMemeImages",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatesinglememevideo-sm",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "videos",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/184972 (540p).mp4"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateMemeVideo/6594746c2d15e0fa54490e09/52d1c31a-6bc4-46fb-93b5-84fa90ecaf1b-1704234181045.mp4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateMemeVideo",
+						"6594746c2d15e0fa54490e09",
+						"52d1c31a-6bc4-46fb-93b5-84fa90ecaf1b-1704234181045.mp4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatesinglememeimage-sm",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/distracted.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateMemeImages/6594746c2d15e0fa54490e09/92aa34a3-4b85-4b47-a2f9-0e1647a9b041-1704232436682.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateMemeImages",
+						"6594746c2d15e0fa54490e09",
+						"92aa34a3-4b85-4b47-a2f9-0e1647a9b041-1704232436682.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletememeimages-sm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/cat3.jpeg"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/memes/cat4.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteMultipleMemeImages/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteMultipleMemeImages",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletemultiplememeimages-sm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imageIds\":[\"4e5bca5a-38d2-4c39-bd4a-50f05a609d7f-1704237480600.jpg\", \"fef09c5d-166a-451c-a770-a4fccf61cd2b-1704237480601.jpg\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteMultipleMemeImages/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteMultipleMemeImages",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletemultiplememevideos-sm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"videoIds\":[\"20288892-b133-44e0-a6f8-47c62f0dd85e-1704237985169.mp4\",\r\n\"ba0d3069-8f8b-49e1-8fcd-efdd3c41af58-1704237985241.mp4\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteMultipleMemeVideos/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteMultipleMemeVideos",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postmultiplememevideos-sm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "videos",
+							"type": "file",
+							"src": [
+								"/C:/Users/Shaira Sadia Karim/Downloads/fall_-_23881 (720p).mp4",
+								"/C:/Users/Shaira Sadia Karim/Downloads/184972 (540p).mp4"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/uploadMultipleMemeVideo/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadMultipleMemeVideo",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getmemevideos-sm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getMemeVideos/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getMemeVideos",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatememevideos-sm",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "videos",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/fall_-_23881 (720p).mp4"
+						},
+						{
+							"key": "videos",
+							"type": "file",
+							"src": "/C:/Users/Shaira Sadia Karim/Downloads/184972 (540p).mp4"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateMultipleMemeVideos/6594746c2d15e0fa54490e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateMultipleMemeVideos",
+						"6594746c2d15e0fa54490e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletememevideo-sm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteMemeVideo/6594746c2d15e0fa54490e09/bb6c733e-8d5c-4c4b-b63d-fbcfd4b733af-1704234180992.mp4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteMemeVideo",
+						"6594746c2d15e0fa54490e09",
+						"bb6c733e-8d5c-4c4b-b63d-fbcfd4b733af-1704234180992.mp4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "oauthlogin-sad",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"sadia.shaira03@gmail.com\",\r\n    \"password\": \" \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
